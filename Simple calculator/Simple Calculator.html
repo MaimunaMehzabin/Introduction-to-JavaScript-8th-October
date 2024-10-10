@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        background-color: azure;
+        font-family: Georgia;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Arithmetic Adventure</h1>
+
+      <p>
+        Arithmetic operations are the basic mathematical processes used to
+        calculate numbers. The four primary operations are: Summation (+):
+        Combining two or more numbers to get a total. <br />
+        Subtraction (−): Finding the difference between two numbers. <br />
+        Multiplication (×): Calculating the total of one number added to itself
+        a certain number of times. <br />
+        Division (÷): Splitting a number into equal parts or finding how many
+        times one number fits into another. <br />
+        These operations form the foundation for more complex mathematical
+        concepts and calculations.
+      </p>
+    </center>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+    (Here for all of the operations we will use the numbers- 82 and 18)
+    <h1>Summation-</h1>
+    <p id="sum"></p>
+
+    <h1>Subtraction-</h1>
+    <p id="sub"></p>
+
+    <h1>Multiplication-</h1>
+    <p id="mult"></p>
+
+    <h1>Division-</h1>
+    <p id="div"></p>
+    <script>
+      document.getElementById("myH").innerHTML =
+        "Let's see how we can use Arithmetic operations";
+      document.getElementById("myP").innerHTML =
+        "Some examples are given below-";
+
+      var age1, age2, sum, sub, mult, div;
+      age1 = 82;
+      age2 = 18;
+      sum = age1 + age2;
+      sub = age1 - age2;
+      mult = age1 * age2;
+      div = age1 / age2;
+      document.getElementById("sum").innerHTML = `The Sum is: ${sum}`;
+      document.getElementById("sub").innerHTML = `The Sum is: ${sub}`;
+      document.getElementById("mult").innerHTML = `The Sum is: ${mult}`;
+      document.getElementById("div").innerHTML = `The Sum is: ${div}`;
+    </script>
+  </body>
+</html>
